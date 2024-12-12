@@ -1,0 +1,17 @@
+# installer for qabot_langchain to run 
+
+!pip install virtualenv 
+!virtualenv my_env # create a virtual environment named my_env
+!source my_env/bin/activate # activate my_env
+
+
+# installing necessary pacakges in my_env , I ran it provided lab only as For this project, the key libraries you'll need are Gradio for creating user-friendly web interfaces and IBM watsonx AI for leveraging advanced LLM models from IBM watsonx's API
+!python3.11 -m pip install \
+ gradio==4.44.0 \
+ ibm-watsonx-ai==1.1.2  \
+ langchain==0.2.11 \
+ langchain-community==0.2.10 \
+ langchain-ibm==0.1.11 \
+ chromadb==0.4.24 \
+ pypdf==4.3.1 \
+ pydantic==2.9.1

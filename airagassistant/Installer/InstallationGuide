@@ -1,0 +1,3 @@
+pip install pypdf
+pip install -U langchain-community
+pip install langchain-community requests
